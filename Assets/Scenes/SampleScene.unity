@@ -1103,9 +1103,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2025532979}
   - component: {fileID: 2025532978}
-  - component: {fileID: 2025532977}
   - component: {fileID: 2025532980}
   - component: {fileID: 2025532981}
+  - component: {fileID: 2025532982}
   m_Layer: 0
   m_Name: Player_Character
   m_TagString: Untagged
@@ -1113,20 +1113,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2025532977
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025532974}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c7a27eb3e6c7a94285ee1f50c6d2c51, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Player_move
-  movespeed: 10
-  rotationSpeed: 100
 --- !u!212 &2025532978
 SpriteRenderer:
   serializedVersion: 3
@@ -1265,6 +1251,20 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &2025532982
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2025532974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c7a27eb3e6c7a94285ee1f50c6d2c51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Player_move
+  movespeed: 10
+  rotationSpeed: 100
 --- !u!1 &2026100978
 GameObject:
   m_ObjectHideFlags: 0
